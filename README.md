@@ -1,7 +1,7 @@
 # Get Started
 1. Install the Dataset from this link https://www.kaggle.com/mczielinski/bitcoin-historical-data
 2. Download all the resources from the repository
-3. Inside the folder Datasets add the downloaded ./Datasets and name it : "bitstampUSD_1-min_data_2012-01-01_to_2020-12-31.csv"
+3. Inside the folder ./Datasets add the downloaded dataset and name it : "bitstampUSD_1-min_data_2012-01-01_to_2020-12-31.csv"
 4. If you are using a Linux or Mac environment you can skip step 5 and 6
 5. If you are using a windows environment, the dataPreprocessing.py program will not work properly, because the pandas library is still not fully supported on windows environments, so you will need to manually download the cleaned dataset, name it "final_Bitcoin_dataset.csv" and save it inside the ./Datasets folder from the link : https://mega.nz/folder/bph2GCDB#0jfmGQBvYkOR-e8BgGo-ig
 6. If you are using a windows environment, you will need to always pass the parameter --skip_clean True
